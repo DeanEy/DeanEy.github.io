@@ -25,7 +25,7 @@ class SearchInput extends React.Component {
 						</div>
 					</div>
 				</form>
-				<div className="ui labeled button" tabindex="0">
+				<div onClick={()=>{alert("Thanks for liking my project!")}} className="ui labeled button" tabindex="0">
  					 <div className="ui red button">
     					<i className="heart icon"></i> Like this project?
   							</div>
